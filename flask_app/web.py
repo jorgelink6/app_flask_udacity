@@ -11,10 +11,9 @@ from flasgger import Swagger
 from flask import redirect
 from flask import jsonify
 
+from sensible.loginit import logger
 from nlib import csvops
 from nlib import utils
-from sensible.loginit import logger
-
 
 log = logger(__name__)
 
